@@ -1,0 +1,38 @@
+.interTextualIntro {
+  padding: 6rem 2rem 5rem 2rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  display: flex;
+  min-height: 65vh;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.interTextualIntro h2 {
+  /* padding: 2rem 2rem 0.5rem 0; */
+  font-size: 2.4rem;
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.title {
+  border-bottom: 1px gray solid;
+  margin-top: 3.5rem;
+  margin-bottom: 1.5rem;
+}
+
+hr {
+  border: 0.6px solid #002f35;
+}
+
+.titleHr {
+  border: 0.2px dotted #002f35;
+}

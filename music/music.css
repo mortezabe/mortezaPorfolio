@@ -1,0 +1,29 @@
+.img__portfolio img {
+  max-width: 32rem;
+  /* border: solid 2px #6d6b66; */
+  /* border-radius: 8px; */
+  padding: 1rem;
+}
+#section__music h1 {
+  font-size: 4rem;
+  font-weight: 400;
+  margin: 2rem 0 1rem 0;
+}
+
+#section__music p {
+  font-size: 1.3rem;
+  font-weight: 400;
+  text-align: center;
+  line-height: 2.2rem;
+  padding: 1rem 14rem 2rem 14rem;
+}
+
+/* .socialmedia a {
+  font-size: 1.5rem;
+  color: #813b3b;
+  padding: 0 0.2rem;
+} */
+
+.img__music {
+  margin-bottom: 4rem;
+}

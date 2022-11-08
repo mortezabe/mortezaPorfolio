@@ -1,0 +1,289 @@
+body {
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fdf7e8;
+  /* background-color: #efead8; */
+  /* background-color: #ece7d1 */
+  color: #1f0202;
+}
+.myCard {
+  background-color: #5f7161;
+  color: white;
+  font-family: "Raleway", sans-serif;
+}
+.myCard-body {
+  padding-bottom: 3rem;
+}
+#header {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  display: flex;
+  /* background-color: #ffd4d4; */
+  /* background-color: #5a2525; */
+
+  /* color: #aedbe0; */
+  /* #cde1e4; */
+  padding: 0 5rem;
+  height: 12vh;
+  /* align-items: center; */
+}
+.header__identity {
+  font-family: "Roboto", sans-serif;
+  flex: 1;
+  width: 100%;
+  padding-left: 3rem;
+}
+.header__identity h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  margin: 0;
+  padding: 2rem 0 0 0;
+}
+.header__identity h4 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  margin: 0;
+  padding: 0.4rem 0 0 0;
+}
+
+.header__navitems {
+  flex: 1;
+  align-items: center;
+  padding: 1.9rem 3rem 0 0;
+}
+
+.ul__navitems {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ul__navitems li a {
+  text-decoration: none;
+  /* color: #1b2430; */
+  /* color: #aedbe0; */
+  /* color: #502611f5; */
+}
+
+#section__intro {
+  /* color: #dfb5b5; */
+  display: flex;
+  max-height: 88vh;
+  padding: 7rem 10rem;
+}
+.img__portfolio {
+  flex: 2;
+  padding: 2rem 0 2rem 3rem;
+}
+.intro {
+  flex: 3;
+  padding: 3rem 3rem 3rem 3rem;
+}
+.img__portfolio img {
+  max-width: 32rem;
+  border: solid 2px #6d6b66;
+  border-radius: 8px;
+  padding: 1rem;
+}
+.intro h1 {
+  font-size: 4rem;
+  font-weight: 300;
+  margin: 3rem 0 0 0;
+}
+
+.intro h3 {
+  font-size: 1.8rem;
+  font-weight: 300;
+  margin: 0.5rem 0;
+}
+.intro p:nth-of-type(1) {
+  font-size: 1.3rem;
+  font-weight: 300;
+  padding: 0.5rem 0 5rem 0;
+}
+.intro p:nth-of-type(2),
+.intro p:nth-of-type(3) {
+  font-size: 1rem;
+  font-weight: 200;
+  margin: 0.5rem 0 0.5rem 0;
+}
+
+.socialmedia a {
+  font-size: 1.5rem;
+  color: #074144;
+  padding: 0 0.2rem;
+}
+#section__bio {
+  max-width: 70%;
+  margin: 0 0 9rem 20rem;
+  display: flex;
+  flex-direction: row;
+  color: #1a1f20;
+  align-items: center;
+  padding: 3rem;
+  margin-right: auto;
+}
+
+.bio-title {
+  /* background-color: #cde1e4; */
+  background-color: #ddd2c4;
+  box-shadow: -38px -25px #aca294;
+  font-size: 3rem;
+  font-weight: 400;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 3rem 0;
+  align-items: center;
+  margin-right: 2rem;
+}
+
+.bio-title h3 {
+  font-size: 3rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+.bio-link {
+}
+.bio-link a,
+.research-link a,
+.myMusic-link a {
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: light;
+  background-color: #5f7161;
+  color: white;
+  padding: 1rem;
+}
+
+.bio-paragraphs {
+  max-width: 80%;
+  flex: 2;
+  text-align: center;
+}
+.bio-paragraphs p {
+  font-size: 1.1rem;
+  line-height: 2rem;
+}
+
+.aboutme-img {
+  box-shadow: 25px 18px #aca294;
+  width: 90%;
+}
+#section__research {
+  max-width: 70%;
+  margin: 0 0 0 12rem;
+  display: flex;
+  flex-direction: row-reverse;
+  color: #1a1f20;
+  align-items: center;
+  padding: 3rem;
+}
+.research-title {
+  background-color: #ddd2c4;
+  box-shadow: 38px 25px #aca294;
+  font-size: 3rem;
+  font-weight: 400;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 3rem 0;
+  align-items: center;
+  margin-left: 2rem;
+}
+.research-title h3 {
+  font-size: 3rem;
+  font-weight: 400;
+  max-width: 70%;
+  flex: 1;
+  margin-bottom: 1rem;
+  /* padding: 0 0 2.5rem 3rem; */
+}
+.research-link {
+  margin-top: 1rem;
+}
+.research-paragraphs {
+  max-width: 70%;
+  flex: 2;
+}
+.research-paragraphs p {
+  font-size: 1.1rem;
+  /* max-width: 70%; */
+  line-height: 2rem;
+  /* padding: 3rem; */
+}
+.research-img {
+  box-shadow: -28px -22px #aca294;
+  width: 90%;
+}
+
+#section__myMusic {
+  max-width: 70%;
+  margin: 9rem 0 9rem 20rem;
+  display: flex;
+  flex-direction: row;
+  color: #1a1f20;
+  align-items: center;
+  padding: 3rem;
+  margin-right: auto;
+}
+
+.myMusic-title {
+  background-color: #ddd2c4;
+  box-shadow: -38px -25px #aca294;
+  font-size: 3rem;
+  font-weight: 400;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 3rem 0;
+  align-items: center;
+  margin-right: 2rem;
+}
+
+.myMusic-title h3 {
+  font-size: 3rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+.myMusic-link {
+}
+
+.myMusic-paragraphs {
+  max-width: 80%;
+  flex: 2;
+}
+.myMusic-paragraphs p {
+  font-size: 1.1rem;
+  line-height: 2rem;
+}
+.mymusic-img {
+  box-shadow: 28px 22px #aca294;
+  width: 90%;
+}
+footer {
+  color: #300404;
+}
+
+#footer i {
+  /* margin-right: 0.2rem; */
+}
+
+.float-right {
+  float: right;
+}
+
+.sectionDivider {
+  margin: 10rem 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .sectionDivider {
+    margin: 0;
+  }
+}

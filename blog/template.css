@@ -1,0 +1,33 @@
+body {
+  font-family: "Raleway", sans-serif;
+  background-color: #fffcf4;
+  color: rgb(44, 0, 0);
+  /* height: 100%; */
+}
+
+main {
+}
+
+.title h3 {
+  font-size: 2rem;
+  padding-bottom: 2rem;
+  font-family: "Playfair Display";
+}
+
+.author h5 {
+  font-size: 1.8rem;
+}
+
+.interTextualPar p {
+  font-size: 1.3rem;
+}
+
+#footer {
+}
+
+.wrapper {
+  display: flex;
+  min-height: 90vh;
+  flex-direction: column;
+  justify-content: space-between;
+}
