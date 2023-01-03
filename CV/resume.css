@@ -18,8 +18,8 @@
 #section__education {
   display: flex;
   justify-content: space-evenly;
-  background-color: #f6f7ed;
-  /* color: white; */
+  background-color: #e2dbc1;
+  color: white;
   padding: 6rem 0 6rem 0;
 }
 #section__education div {

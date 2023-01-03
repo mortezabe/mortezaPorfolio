@@ -59,28 +59,26 @@
                 class="nav-link active"
                 aria-current="page"
                 href="../index.html"
-                >Home</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/CV/resume.html">CV</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/workshops/workshops.html">Workshops</a>
-            </li>
+                >Home</a>
+            </li>                     
             <li class="nav-item">
               <a class="nav-link" href="/research/research.html">Research</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/music/music.html">Music</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="/blog/blog.html">Blog</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="/variations/variations.html"
-                >Variations</a
-              >
+                >Variations</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/music/music.html">Music</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/workshops/workshops.html">Workshops</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/CV/resume.html">CV</a>
             </li>
           </ul>
         </div>
@@ -173,7 +171,7 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-12 col-md-6 col-lg-4 order-1 order-lg-2">
+          <div class="col-sm-12 col-md-6 col-lg-4 order-1 order-lg-2 mt-md-5 pt-md-5 mt-lg-5 pt-lg-5 mt-xl-0 pt-xl-5">
             <div
               class="card border-0"
               style="background-color: transparent !important;"
@@ -191,7 +189,7 @@
       </div>
       <div class="sectionDivider">
         <div class="row m-lg-5">
-          <div class="col-sm-12 col-md-6 col-lg-4">
+          <div class="col-sm-12 col-md-6 col-lg-4 mt-md-5 pt-md-5 mt-lg-4 pt-lg-5 mt-xl-0 pt-xl-5">
             <div
               class="card border-0"
               style="background-color: transparent !important;"
@@ -265,7 +263,7 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-12 col-md-6 col-lg-4 order-1 order-lg-2">
+          <div class="col-sm-12 col-md-6 col-lg-4 order-1 order-lg-2 mt-md-5 pt-md-5 mt-lg-5 pt-lg-5 mt-xl-0 pt-xl-5">
             <div
               class="card border-0"
               style="background-color: transparent !important;"
@@ -288,14 +286,13 @@
         <button type="submit">Submit</button>
       </form> -->
 
-      <div
+      <div class="col-md-10 col-lg-8"
         style="
-          max-width: 60%;
           margin: auto;
           padding: 3rem;
           background-color: transparent;
           margin-bottom: 12rem;
-          border: 1px solid #f1d3d3;
+          border: 1px solid #5f7161;
         "
       >
         <h2 style="text-align: center; padding-bottom: 3rem;">Contact Me!</h2>
@@ -308,7 +305,8 @@
               name="name"
               type="text"
               id="name"
-              class="form-control border-0"
+              class="form-control border-1"
+              style=" border: 1px solid #5f7161;"
             />
           </div>
           <!-- Email input -->
@@ -319,7 +317,9 @@
               name="email"
               type="email"
               id="email"
-              class="form-control border-0"
+              class="form-control border-1"
+             style=" border: 1px solid #5f7161;"
+
             />
           </div>
           <!-- Message input -->
@@ -327,9 +327,10 @@
             <label class="form-label" for="text">Message Me!</label>
             <textarea
               name="text"
-              class="form-control border-0"
+              class="form-control border-1"
               id="text"
               rows="4"
+              style=" border: 1px solid #5f7161;"
             ></textarea>
           </div>
           <!-- Submit button -->
@@ -338,7 +339,7 @@
             class="btn btn-outline-secondary"
             onMouseOver="this.style.backgroundColor='#5f7161'"
             onMouseOut="this.style.backgroundColor='#faf7ec'"
-            id:"btn"
+            id="btn"
             onclick="submitForm()"
 
           >
