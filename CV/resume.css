@@ -3,10 +3,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 6rem;
+  padding: 3rem;
 }
 .section-title h2 {
-  font-size: 4rem;
+  font-size: 2.5rem;
   font-weight: 400;
   /* color: #3d0606; */
 }
