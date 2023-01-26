@@ -58,11 +58,11 @@
 
 }
 
-/* @media only screen and (max-width: 600px){
+@media only screen and (max-width: 600px){
   .myNav{
     background-color: rgba(128, 128, 128, 0.804);
-    height: 300px;
+    height: 350px;
     
   }
 
-} */
+}
