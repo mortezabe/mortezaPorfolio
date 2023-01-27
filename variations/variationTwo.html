@@ -21,9 +21,12 @@
     />
 
     <link rel="stylesheet" href="../styles.css" />
-    <link rel="stylesheet" href="blog.css" />
     <link rel="stylesheet" href="template.css" />
 
+    <!-- <link rel="stylesheet" href="blog.css" /> -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -33,13 +36,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@1,300&family=Grape+Nuts&family=La+Belle+Aurore&family=Montserrat:wght@200;300;400&family=Raleway:wght@100;200;300;400;500;600;700&family=Roboto+Condensed:wght@300&family=Roboto:wght@100;300;400&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@1,300&family=Grape+Nuts&family=La+Belle+Aurore&family=Montserrat:wght@200;300;400&family=Playfair+Display&family=Quicksand:wght@300;400;500&family=Raleway:wght@100;200;300;400;500;600;700&family=Roboto+Condensed:wght@300&family=Roboto:wght@100;300;400&display=swap"
       rel="stylesheet"
     />
   </head>
-
   <body class="container">
-    <nav class="navbar navbar-expand-lg mt-5">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg mt-5 m-lg-5">
       <div class="container-fluid">
         <a class="navbar-brand" href="../index.html">Morteza</a>
         <button
@@ -57,123 +60,151 @@
           class="d-flex-lg justify-content-end collapse navbar-collapse"
           id="navbarNav"
         >
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="../index.html"
-                >Home</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/CV/resume.html">CV</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/workshops/workshops.html">Workshops</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/research/research.html">Research</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/music/music.html">Music</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/blog/blog.html">Blog</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="/variations/variations.html"
-                >Variations</a
-              >
-            </li>
-          </ul>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a
+              class="nav-link active"
+              aria-current="page"
+              href="../index.html"
+              >Home</a>
+          </li>                     
+          <li class="nav-item">
+            <a class="nav-link" href="/research/research.html">Research</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/blog/blog.html">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="/variations/variations.html"
+              >Variations</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/music/music.html">Music</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/workshops/workshops.html">Workshops</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/CV/resume.html">CV</a>
+          </li>
+        </ul>
         </div>
       </div>
     </nav>
-    <div class="wrapper">
-      <main>
-        <div class="title">
-          <h4>Musical Abstraction Deconstructed...</h4>
+
+    <!-- header  -->
+
+    <header class="masthead">
+      <div class="container position-relative px-4 px-lg-5">
+        <div class="row gx-4 gx-lg-5 justify-content-center">
+          <div class="col-md-10 col-lg-8 col-xl-7">
+            <div class="post-heading">
+              <p>
+                <a href="/blog/blog.html">all variations</a>
+              </p>
+              <hr style="padding-bottom: 4rem" />
+
+              <div class="meta mb-4 pb-3">
+                By
+                <a href="../index.html">Morteza Abedinifard,</a>
+                Dec 27, 2022.
+              </div>
+            </div>
+
+            <div class="post-heading">
+              <div class="my-5">
+                <h2>on Musical Abstraction and Life</h2>
+              </div>
+              <div class="my-2">
+                <h3>Themes:</h3>
+              </div>
+              <h6>
+                “die Musik überhaupt ist die melodie, zu der die Welt der Text ist.” (“Music is the melody to which the world is the text.”) 
+Arthur Schopenhauer, On the Metaphysics of the Beautiful and Aesthetics.
+
+              </h6>
+              <h6>
+“Das Verständnis der Musik ist eine Lebensäußerung der Menschen.” (“Understanding music is a human life-expression.”)
+Ludwig Wittgenstein (MS-137:22)
+
+              </h6>
+
+            
+
+              <div class="my-4">
+                <img
+                  src="../images/variationTwo.jpg"
+                  class="card-img-top rounded-1 m-auto"
+                  alt="..."
+                />
+                <span class="caption text-muted"
+                  > 
+                  Federico Zandomeneghi (1841-1917) <em> Listening to Music</em></span
+                >
+                <p></p>
+              </div>
+            </div>
+            <div class="post-heading my-2">
+              <h3>Variation:</h3>
+            </div>
+          </div>
         </div>
-        <div class="author">
-          <h6>Morteza Abedinifard</h6>
+      </div>
+    </header>
+
+    <!-- Post Content-->
+
+    <article class="mb-4">
+      <div class="container px-4 px-lg-5">
+        <div class="row gx-4 gx-lg-5 justify-content-center">
+          <div class="col-md-10 col-lg-8 col-xl-7">
+            <p>
+              Why does music matter? Music Matters for many reasons some of which are ones we share with one another (let’s call them more universal reasons), and some are personal reasons that make music specifically significant for each of us. Here, I would like to highlight one of these more universal reasons that I think can connect us all to music. This reason can to some extent explain what is there in music that makes its experience an integral part of our lives. A general formulation of that reason is: music connects us to something beyond our specific individual beings, and I think that is also the source of joy in music.            </p>
+
+            <p>
+              There is something in music that ties the moment of listening to music to something beyond that moment, and bridges the individual act of listening to something beyond its contingency, particularity, and transience. These are probably special moment when musical experience dominates our being in the world and in their background everything else seems to be trivial and insignificant. You can simply think of a time when you were listening to music and you felt you wanted to cry or you actually did cry or you felt so much joy or so much sorrow or so much of some other particular type of feeling inside you that made you feel you were outside that particular circumstance, that is outside the time and place. One might describe such moments as flashes of ecstasy or moments of contemplation in which we immerse ourselves in an experience. That moment for many is experienced through some degree of dissociation or abstraction from the world as if there are possible objects that can stay outside our world, the regular context of meaning.          
+                 </p>
+
+                 <p>
+                  Whether we think music is a purely abstract art—which as Eduard Hanslick has famously announced in his On the Musically Beautiful (Vom Musikalisch-Schönen) includes these mysterious sonic forms that move and play around without meaning anything causing pleasure in us only through experiencing their motion—or we believe that music is a representational art that speaks to us and says something; the most important point is that by listening to music we can never agree to some pre-given ideas that are being expressed in music. The very fact that notwithstanding the interpretation we have of a piece, we always consider some validity for other understandings and feel less biased than when we encounter a different interpretation of let’s say a poem, indicates that we never have any solid referential grounds for proving other interpretations wrong. Music, in this sense, offers a unique and quite exceptional intellectual/emotional democracy.
+
+                 </p>
+
+                 <p>
+
+                  This democracy emerges from the freedom inherent in music, which is exactly what connects us to something beyond us as particular beings. If music had a meaning in the way language does (notwithstanding all its ambiguity and non-referential uses), then music would have never been able to make us feel dissociated from the particular moments we live in. Music’s very power of distraction, reflected in the way we transcend or, so to speak, unhear the world we are physically in, is the same force that turns the experience of listening to music a path for connecting to something beyond our particularity. It is, in a very strange way, an invitation to being universal, and communal. In this manner, musical abstraction, in a quite paradoxical way, is strongly social and political. Because, as Wittgenstein says, it is one way in which humans can engage in life-expression!
+                 </p>
+
+            <!-- <div class="verticalLine my-4">
+              <blockquote style="margin-left: 2rem" class="blockquote">
+                ...........
+              </blockquote>
+            </div> -->
+<!-- 
+            <div class="verticalLine my-4">
+              <blockquote style="margin-left: 2rem" class="blockquote">
+                In this manner, the politics of
+              music destructs the political life.
+              </blockquote>
+            </div> -->
+    
+        
+          </div>
         </div>
-        <div class="interTextualPar">
-          <h4>Theme:</h4>
-          <figure class="figure">
-            <img
-              src="../images/listeningToSchumann.jpeg"
-              class="figure-img img-fluid rounded w-50"
-              alt="A generic square placeholder image with rounded corners in a figure."
-            />
-            <figcaption class="figure-caption text-right">
-              Listening to Schumann, Fernand Knopf, 1883.
-            </figcaption>
-          </figure>
-          <h4>Variation:</h4>
-          <p>
-            Why does music matter? Music Matters for many reasons some of them
-            are the reasons we share with one another (let’s call them more
-            universal reasons) and some of them are personal reasons that make
-            music specifically significant for each of us. However, there is one
-            reason that I think can connect all of us to music. The reason I’m
-            interested in can to some extent explain what is there in music that
-            makes its experience an integral part of our lives. A general
-            formulation of that reason is: music connects us to something beyond
-            our specific individual beings, and I think that’s also the source
-            of joy in music. In other words, there is something in music that
-            connects the moment of listening to music to something beyond that
-            moment, the individual listening to music to something beyond the
-            individual; that could explain why in those moments when musical
-            experience dominates our being in the world, everything else seems
-            to be trivial, seems to be unimportant and insignificant.
-          </p>
-          <p>
-            Think of a time when you were listening to music and you felt you
-            want to cry or you actually cried or you felt so much joy or so much
-            sorrow or so much of some other particular type of feeling inside
-            you that made you feel you were outside that particular
-            circumstance, that is outside the time and place. We sometimes
-            describe it as moments of ecstasy or moments of contemplation or
-            immersing ourselves in an experience. That moment is related, among
-            other things, to some degree of abstraction that is usually ascribed
-            to music—in one way or another. Whether we think that music is a
-            purely abstract art—which includes these mysterious sonic forms that
-            move and play around without meaning anything causing pleasure in us
-            only by giving us the chance to follow the motion of these sonic
-            beings—or we believe that music is a representational art that
-            speaks to us says something, the most important thing here is that
-            by listening to music we can never agree to some pre-given ideas
-            that are being expressed in music. The very fact that
-            notwithstanding any interpretation we have of a piece, we always
-            consider some degree of validity for other understandings and feel
-            less biased than when we encounter a different interpretation of a
-            poem, let’s say, shows that we never have any solid referential
-            grounds for proving other interpretations wrong.
-          </p>
-          <p>
-            Music, in this sense, offers a unique and quite exceptional
-            intellectual/emotional democracy which doesn’t even exist in
-            abstract paintings. That democracy emerges from the freedom inherent
-            in music, that is exactly what connects us to something beyond us as
-            particular beings. If music had a particular meaning like the way
-            language does (we all know that even sometimes languages doesn’t
-            easily contain fixed and given meanings), then music would have
-            never been able to make us feel disconnected from the particular
-            moment we are living in. Music’s very power of ‘distraction’,
-            reflected in the way we transcend or in a sense ‘unhear’ the world
-            we that we are in, is the same force that turns the experience of
-            listening to music a path for connecting to something beyond our
-            particularity. It’s an invitation to being universal, and communal.
-            In this manner, musical abstraction is equally political.
-          </p>
-        </div>
-      </main>
-      <footer class="text-center text-lg-start">
-        <div class="text-center p-3">
-          <i class="fa-solid fa-copyright"></i>
-          <span class="ml-3">
-            2022 by Ali and Morteza. Proudly created with MorAl Corp.</span
-          >
-        </div>
-      </footer>
-    </div>
+      </div>
+    </article>
+    <!-- Footer-->
+    <footer class="text-center text-lg-start">
+      <div class="text-center p-3">
+        <i class="fa-solid fa-copyright"></i>
+        <span class="ml-3">
+          2022 by Ali and Morteza. Proudly created with MorAl Corp.</span
+        >
+      </div>
+    </footer>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
   </body>
 </html>
