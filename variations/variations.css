@@ -36,3 +36,18 @@ hr {
 .titleHr {
   border: 0.2px dotted #002f35;
 }
+
+
+.actualSize {
+width: 320px;
+height: 240px;
+object-fit: cover;
+}
+
+@media only screen and (max-width: 780px) {
+.actualSize {
+  width: 520px;
+height: 440px;
+object-fit: cover;
+}
+}
