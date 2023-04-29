@@ -1,0 +1,74 @@
+.section-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+}
+.section-title h2 {
+  font-size: 2.5rem;
+  font-weight: 400;
+  /* color: #3d0606; */
+}
+.section-title span {
+  font-size: 2rem;
+  /* color: #3d0606; */
+}
+
+#section__education {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #e2dbc1;
+  color: white;
+  padding: 6rem 0 6rem 0;
+}
+#section__education div {
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+#section__education div :nth-of-type(1) {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 3rem;
+}
+#section__education div :nth-child(n + 2) {
+  line-height: 0.6rem;
+}
+#section__teaching {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #e2dbc1;
+  color: white;
+  padding: 6rem 0 6rem 0;
+}
+#section__teaching div {
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+#section__teaching div :nth-of-type(1) {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 3rem;
+}
+#section__teaching div :nth-child(n + 2) {
+  line-height: 0.6rem;
+}
+
+.download-cv {
+  text-align: center;
+  padding: 3rem 0 3rem 0;
+  /* background-color: rgb(221, 220, 167); */
+}
+
+.download-cv a {
+  font-size: 1.5rem;
+  font-weight: 300;
+  text-decoration: none;
+  color: #681313;
+}
+
+.download-cv a:hover {
+  color: #270505;
+}
